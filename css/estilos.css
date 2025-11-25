@@ -108,4 +108,11 @@ body {
    background-position: center;
 }
 
-main {}
+.whats{
+    width: 60px;
+    position: fixed;
+}
+.whats:hover{
+    cursor: pointer;
+   
+}
