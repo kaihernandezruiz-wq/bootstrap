@@ -1,0 +1,111 @@
+/* configuración inicial */
+
+/* coloque aca el @font face para llamar la la fuente arimo } */
+@font-face {
+   font-family: Arimo-Regular;
+   src: url(../fuente/Arimo-Regular.ttf);
+}
+
+@font-face {
+   font-family: Arimo-Bold;
+   src: url(../fuente/Arimo-Bold.ttf);
+}
+
+/* Puede utilizar dos colores adicionales aparte del negro blanco y gris 
+ */
+:root {
+   --fuente-bold: Arimo-Bold;
+   --fuente-regu: Arimo-Regular;
+   --blanco: #fff;
+   --negro: #000;
+   --gris: #989a9b;
+   --fondo: #fde4d2;
+   --color1: #f1904a;
+   --orange: #ff6a00;
+}
+
+body {
+   /* Coloque acá la fuente para utilizar en todo el sitio */
+}
+
+/* ******** COLOQUE DEBAJO TODOS LOS ESTILOS PERSONALES ******* */
+.texto-hero {
+   font-family: Arimo-Regular;
+   font-size: 50px;
+   text-shadow: 3px 3px 3px black;
+
+}
+
+.titulo-hero {
+   font-family: Arimo-Bold;
+   font-size: 70px;
+   text-shadow: 3px 3px 3px black;
+}
+
+.texto- {
+   font-family: Arimo-Regular;
+}
+
+.texto-bol {
+   font-family: Arimo-Bold;
+}
+
+.bg-fondo {
+   background-color: var(--fondo);
+}
+
+.bg-gris {
+   background-color: var(--gris);
+}
+
+.orange {
+   color: var(--orange);
+}
+
+.bg-orange {
+   background-color: var(--orange);
+}
+
+.color1 {
+   color: var(--color1);
+}
+
+.bg-ori {
+   background-color: var(--color1);
+}
+
+.btn-orange {
+   background-color: var(--orange);
+   width: 150px;
+   border: var(--orange);
+
+}
+
+@media (min-width: 720px) {
+   .m-img {
+      margin-left: 200px;
+   }
+}
+
+
+.menu-activado {
+   font-family: Arimo-Bold;
+   color: var(--orange);
+
+}
+
+.menu-desactivado {
+   font-family: Arimo-Regular;
+   color: #000;
+
+}
+
+.fondo {
+   height: 45vh;
+   background-image: url("../imagenes/hero.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+
+main {}
