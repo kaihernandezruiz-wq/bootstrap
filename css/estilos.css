@@ -81,11 +81,7 @@ body {
 
 }
 
-@media (min-width: 720px) {
-   .m-img {
-      margin-left: 200px;
-   }
-}
+
 
 
 .menu-activado {
@@ -108,11 +104,12 @@ body {
    background-position: center;
 }
 
-.whats{
-    width: 60px;
-    position: fixed;
+.whats {
+   width: 60px;
+   position: fixed;
 }
-.whats:hover{
-    cursor: pointer;
-   
+
+.whats:hover {
+   cursor: pointer;
+
 }
